@@ -1,5 +1,17 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
+  "enums": {
+    "archival_value": {
+      "type": "string",
+      "enum": [
+        "unchecked",
+        "prompt",
+        "archival worthy",
+        "not archival worthy",
+        "archival worthy with sampling"
+      ]
+    }
+  },
   "definitions": {
     "root": {
       "type": "object",
@@ -64,7 +76,7 @@
           "type": "integer"
         },
         "archival_value": {
-          "type": "string"
+          "$ref": "#/enums/archival_value"
         },
         "custody_period": {
           "type": "integer"
