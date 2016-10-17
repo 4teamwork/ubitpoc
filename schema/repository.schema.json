@@ -86,12 +86,70 @@
           "items": {
             "$ref": "#/definitions/folder"
           }
+        },
+        "_dossiers": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/dossier"
+          }
         }
       },
       "required": [
         "type",
         "title_de",
         "title_fr",
+        "classification",
+        "privacy_layer",
+        "public_trial",
+        "retention_period",
+        "archival_value",
+        "custody_period"
+      ]
+    },
+    "dossier": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "classification": {
+          "type": "string"
+        },
+        "privacy_layer": {
+          "type": "string"
+        },
+        "public_trial": {
+          "type": "string"
+        },
+        "retention_period": {
+          "type": "integer"
+        },
+        "archival_value": {
+          "$ref": "#/enums/archival_value"
+        },
+        "custody_period": {
+          "type": "integer"
+        },
+        "responsible": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "_dossiers": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/dossier"
+          }
+        }
+      },
+      "required": [
+        "type",
+        "title",
         "classification",
         "privacy_layer",
         "public_trial",
