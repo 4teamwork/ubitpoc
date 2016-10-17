@@ -37,6 +37,9 @@
           "type": "string",
           "format": "date"
         },
+        "_permissions": {
+          "$ref": "#/definitions/permission"
+        },
         "_folders": {
           "type": "array",
           "items": {
@@ -167,6 +170,45 @@
         "archival_value",
         "custody_period"
       ]
+    },
+    "permission": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "block_inheritance": {
+          "type": "boolean"
+        },
+        "read": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "add": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "edit": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "close": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "reactivate": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
     }
   },
   "type": "object",

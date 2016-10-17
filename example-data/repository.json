@@ -6,6 +6,14 @@
       "title_fr": "Ördnungssystem",
       "version": "3",
       "valid_from": "2010-01-01",
+      "_permissions": {
+        "block_inheritance": true,
+        "read": ["all_users"],
+        "add": ["privileged_users"],
+        "edit": ["privileged_users"],
+        "close": ["privileged_users"],
+        "reactivate": ["admin_users"]
+      },
       "_folders": [
         {
           "type": "opengever.repository.repositoryfolder",
