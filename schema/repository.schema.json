@@ -140,6 +140,16 @@
         "description": {
           "type": "string"
         },
+        "addable_dossier_types": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "opengever.dossier.specialcasedossier",
+              "opengever.dossier.secretcasedossier"
+            ]
+          }
+        },
         "_dossiers": {
           "type": "array",
           "items": {

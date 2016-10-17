@@ -66,12 +66,15 @@
               "public_trial": "public",
               "retention_period": 15,
               "archival_value": "prompt",
-              "custody_period": 30
+              "custody_period": 30,
+              "addable_dossier_types": [
+                "opengever.dossier.specialcasedossier"
+              ]
             },
             {
               "type": "opengever.dossier.businesscasedossier",
               "title": "Strategischer Plan Fall drei",
-              "description": "Lorem ipsum dolor sit",
+              "description": "Lorem ipsum dolor \\nsit",
               "responsible": "user.example",
               "classification": "unprotected",
               "privacy_layer": "privacy_layer_no",
