@@ -44,6 +44,57 @@
               ]
             }
           ]
+        },
+        {
+          "type": "opengever.repository.repositoryfolder",
+          "title_de": "Strategische Führung",
+          "title_fr": "Strätegische Führüng",
+          "classification": "unprotected",
+          "privacy_layer": "privacy_layer_no",
+          "public_trial": "public",
+          "retention_period": 15,
+          "archival_value": "prompt",
+          "custody_period": 30,
+          "_dossiers": [
+            {
+              "type": "opengever.dossier.businesscasedossier",
+              "title": "Strategischer Plan Fall drei",
+              "description": "Lorem ipsum dolor sit",
+              "responsible": "user.example",
+              "classification": "unprotected",
+              "privacy_layer": "privacy_layer_no",
+              "public_trial": "public",
+              "retention_period": 15,
+              "archival_value": "prompt",
+              "custody_period": 30
+            },
+            {
+              "type": "opengever.dossier.businesscasedossier",
+              "title": "Strategischer Plan Fall drei",
+              "description": "Lorem ipsum dolor sit",
+              "responsible": "user.example",
+              "classification": "unprotected",
+              "privacy_layer": "privacy_layer_no",
+              "public_trial": "public",
+              "retention_period": 15,
+              "archival_value": "prompt",
+              "custody_period": 30,
+              "_dossiers": [
+                {
+                  "type": "opengever.dossier.businesscasedossier",
+                  "title": "Strategischer Plan Fall drei",
+                  "description": "Lorem ipsum dolor sit",
+                  "responsible": "user.example",
+                  "classification": "unprotected",
+                  "privacy_layer": "privacy_layer_no",
+                  "public_trial": "public",
+                  "retention_period": 15,
+                  "archival_value": "prompt",
+                  "custody_period": 30
+                }
+              ]
+            }
+          ]
         }
       ]
     }
