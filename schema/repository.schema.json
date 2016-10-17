@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "definitions": {
+    "root": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string"
+        },
+        "title_de": {
+          "type": "string"
+        },
+        "title_fr": {
+          "type": "string"
+        },
+        "version": {
+          "type": "string"
+        },
+        "valid_from": {
+          "type": "string",
+          "format": "date"
+        },
+        "valid_until": {
+          "type": "string",
+          "format": "date"
+        },
+        "_folders": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/folder"
+          }
+        }
+      },
+      "required": [
+        "type",
+        "title_de",
+        "title_fr"
+      ]
+    },
+    "folder": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string"
+        },
+        "title_de": {
+          "type": "string"
+        },
+        "title_fr": {
+          "type": "string"
+        },
+        "classification": {
+          "type": "string"
+        },
+        "privacy_layer": {
+          "type": "string"
+        },
+        "public_trial": {
+          "type": "string"
+        },
+        "retention_period": {
+          "type": "integer"
+        },
+        "archival_value": {
+          "type": "string"
+        },
+        "custody_period": {
+          "type": "integer"
+        },
+        "_folders": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/folder"
+          }
+        }
+      },
+      "required": [
+        "type",
+        "title_de",
+        "title_fr",
+        "classification",
+        "privacy_layer",
+        "public_trial",
+        "retention_period",
+        "archival_value",
+        "custody_period"
+      ]
+    }
+  },
+  "type": "object",
+  "properties": {
+    "roots": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/root"
+      }
+    }
+  }
+}

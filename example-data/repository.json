@@ -1,0 +1,51 @@
+{
+  "roots": [
+    {
+      "type": "opengever.repository.root",
+      "title_de": "Ordnungssystem",
+      "title_fr": "Ördnungssystem",
+      "version": "3",
+      "valid_from": "2010-01-01",
+      "_folders": [
+        {
+          "type": "opengever.repository.repositoryfolder",
+          "title_de": "Führung",
+          "title_fr": "Führüng",
+          "classification": "unprotected",
+          "privacy_layer": "privacy_layer_no",
+          "public_trial": "public",
+          "retention_period": 15,
+          "archival_value": "prompt",
+          "custody_period": 30,
+          "_folders": [
+            {
+              "type": "opengever.repository.repositoryfolder",
+              "title_de": "Strategische Führung",
+              "title_fr": "Strätegische Führüng",
+              "classification": "unprotected",
+              "privacy_layer": "privacy_layer_no",
+              "public_trial": "public",
+              "retention_period": 15,
+              "archival_value": "prompt",
+              "custody_period": 30,
+              "_dossiers": [
+                {
+                  "type": "opengever.dossier.businesscasedossier",
+                  "title": "Strategischer Plan Fall drei",
+                  "description": "Lorem ipsum dolor sit",
+                  "responsible": "user.example",
+                  "classification": "unprotected",
+                  "privacy_layer": "privacy_layer_no",
+                  "public_trial": "public",
+                  "retention_period": 15,
+                  "archival_value": "prompt",
+                  "custody_period": 30
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
