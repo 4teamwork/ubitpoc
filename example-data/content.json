@@ -24,6 +24,7 @@
           "retention_period": 15,
           "archival_value": "prompt",
           "custody_period": 30,
+          "reference_number_prefix": "1",
           "_folders": [
             {
               "_type": "opengever.repository.repositoryfolder",
@@ -34,6 +35,7 @@
               "retention_period": 15,
               "archival_value": "prompt",
               "custody_period": 30,
+              "reference_number_prefix": "1",
               "_dossiers": [
                 {
                   "_type": "opengever.dossier.businesscasedossier",
@@ -61,6 +63,7 @@
           "retention_period": 15,
           "archival_value": "prompt",
           "custody_period": 30,
+          "reference_number_prefix": "2",
           "_dossiers": [
             {
               "_type": "opengever.dossier.businesscasedossier",

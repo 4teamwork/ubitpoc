@@ -86,6 +86,9 @@
         "custody_period": {
           "type": "integer"
         },
+        "reference_number_prefix": {
+          "type": "string"
+        },
         "_folders": {
           "type": "array",
           "items": {
@@ -110,7 +113,8 @@
         "public_trial",
         "retention_period",
         "archival_value",
-        "custody_period"
+        "custody_period",
+        "reference_number_prefix"
       ]
     },
     "dossier": {
