@@ -1,6 +1,15 @@
 {
-    "public_trial_default_value": "unchecked",
-    "maximum_repository_depth": 3,
-    "maximum_dossier_depth": 5,
-    "retention_periods": [5, 10, 25, 50]
+  "public_trial_default_value": "unchecked",
+  "maximum_repository_depth": 3,
+  "maximum_dossier_depth": 5,
+  "retention_periods": [5, 10, 25, 50],
+  "custody_periods": [50, 150, 300],
+  "dossier_type_prefixes": [
+    {
+      "identifier": "department",
+      "label_en": "Directorate",
+      "label_de": "Direktorat",
+      "label_fr": "Direction"
+    }
+  ]
 }

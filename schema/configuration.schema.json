@@ -28,6 +28,41 @@
       "items": {
         "type": "integer"
       }
+    },
+    "custody_periods": {
+      "type": "array",
+      "items": {
+        "type": "integer"
+      }
+    },
+    "dossier_type_prefixes": {
+      "type": "array",
+      "items" : {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "identifier": {
+            "type": "string"
+          },
+          "label_en": {
+            "type": "string"
+          },
+          "label_de": {
+            "type": "string"
+          },
+          "label_fr":{
+            "type": "string"
+          }
+        },
+        "required": [
+          "identifier",
+          "label_en"
+        ],
+        "anyOf": [
+          {"required": ["label_de"]},
+          {"required": ["label_fr"]}
+        ]
+      }
     }
   },
   "required": [
