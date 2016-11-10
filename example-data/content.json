@@ -3,7 +3,6 @@
     {
       "type": "opengever.repository.root",
       "title_de": "Ordnungssystem",
-      "title_fr": "Ördnungssystem",
       "version": "3",
       "valid_from": "2010-01-01",
       "_permissions": {
@@ -18,7 +17,7 @@
         {
           "type": "opengever.repository.repositoryfolder",
           "title_de": "Führung",
-          "title_fr": "Führüng",
+          "title_fr": "Management",
           "classification": "unprotected",
           "privacy_layer": "privacy_layer_no",
           "public_trial": "public",
@@ -29,7 +28,6 @@
             {
               "type": "opengever.repository.repositoryfolder",
               "title_de": "Strategische Führung",
-              "title_fr": "Strätegische Führüng",
               "classification": "unprotected",
               "privacy_layer": "privacy_layer_no",
               "public_trial": "public",

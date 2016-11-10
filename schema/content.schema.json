@@ -47,10 +47,12 @@
           }
         }
       },
+      "anyOf": [
+        {"required": ["title_de"]},
+        {"required": ["title_fr"]}
+      ],
       "required": [
-        "type",
-        "title_de",
-        "title_fr"
+        "type"
       ]
     },
     "folder": {
@@ -97,10 +99,12 @@
           }
         }
       },
+      "anyOf": [
+        {"required": ["title_de"]},
+        {"required": ["title_fr"]}
+      ],
       "required": [
         "type",
-        "title_de",
-        "title_fr",
         "classification",
         "privacy_layer",
         "public_trial",
