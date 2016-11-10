@@ -30,5 +30,6 @@
       "label_fr": "Dossier"
     }
   ],
-  "preserved_as_paper_default": false
+  "preserved_as_paper_default": false,
+  "reference_number_formatter": "dotted"
 }

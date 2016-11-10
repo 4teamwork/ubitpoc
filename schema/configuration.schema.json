@@ -9,6 +9,13 @@
         "private",
         "limited-public"
       ]
+    },
+    "reference_number_formatters": {
+      "type": "string",
+      "enum": [
+        "dotted",
+        "grouped_by_three"
+      ]
     }
   },
   "definitions": {
@@ -74,6 +81,9 @@
     },
     "preserved_as_paper_default": {
       "type": "boolean"
+    },
+    "reference_number_formatter": {
+      "$ref": "#/enums/reference_number_formatters"
     }
   },
   "required": [
@@ -84,6 +94,7 @@
     "custody_periods",
     "dossier_type_prefixes",
     "dossier_container_types",
-    "preserved_as_paper_default"
+    "preserved_as_paper_default",
+    "reference_number_formatter"
   ]
 }
