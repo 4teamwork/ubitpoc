@@ -17,5 +17,18 @@
       "label_fr": "Direction"
     }
   ],
+  "dossier_container_types": [
+    {
+      "identifier": "box",
+      "label_en": "Box",
+      "label_de": "Schachtel",
+      "label_fr": "Boîte"
+    }, {
+      "identifier": "dossier",
+      "label_en": "Dossier",
+      "label_de": "Dossier",
+      "label_fr": "Dossier"
+    }
+  ],
   "preserved_as_paper_default": false
 }

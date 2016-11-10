@@ -83,6 +83,7 @@
     "retention_periods",
     "custody_periods",
     "dossier_type_prefixes",
+    "dossier_container_types",
     "preserved_as_paper_default"
   ]
 }
