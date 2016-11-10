@@ -1,3 +1,5 @@
 {
-    "public_trial_default_value": "unchecked"
+    "public_trial_default_value": "unchecked",
+    "maximum_repository_depth": 3,
+    "maximum_dossier_depth": 5
 }

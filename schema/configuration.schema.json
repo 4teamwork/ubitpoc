@@ -15,10 +15,18 @@
   "additionalProperties": false,
   "properties": {
     "public_trial_default_value": {
-        "$ref": "#/enums/public_trial"
+      "$ref": "#/enums/public_trial"
+    },
+    "maximum_repository_depth": {
+      "type": "integer"
+    },
+    "maximum_dossier_depth": {
+      "type": "integer"
     }
   },
   "required": [
-    "public_trial_default_value"
+    "public_trial_default_value",
+    "maximum_repository_depth",
+    "maximum_dossier_depth"
   ]
 }
