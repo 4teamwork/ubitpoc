@@ -22,6 +22,12 @@
     },
     "maximum_dossier_depth": {
       "type": "integer"
+    },
+    "retention_periods": {
+      "type": "array",
+      "items": {
+        "type": "integer"
+      }
     }
   },
   "required": [
