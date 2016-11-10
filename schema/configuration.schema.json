@@ -11,31 +11,8 @@
       ]
     }
   },
-  "type": "object",
-  "additionalProperties": false,
-  "properties": {
-    "public_trial_default_value": {
-      "$ref": "#/enums/public_trial"
-    },
-    "maximum_repository_depth": {
-      "type": "integer"
-    },
-    "maximum_dossier_depth": {
-      "type": "integer"
-    },
-    "retention_periods": {
-      "type": "array",
-      "items": {
-        "type": "integer"
-      }
-    },
-    "custody_periods": {
-      "type": "array",
-      "items": {
-        "type": "integer"
-      }
-    },
-    "dossier_type_prefixes": {
+  "definitions": {
+    "custom_vocabulary": {
       "type": "array",
       "items" : {
         "type": "object",
@@ -65,9 +42,47 @@
       }
     }
   },
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "public_trial_default_value": {
+      "$ref": "#/enums/public_trial"
+    },
+    "maximum_repository_depth": {
+      "type": "integer"
+    },
+    "maximum_dossier_depth": {
+      "type": "integer"
+    },
+    "retention_periods": {
+      "type": "array",
+      "items": {
+        "type": "integer"
+      }
+    },
+    "custody_periods": {
+      "type": "array",
+      "items": {
+        "type": "integer"
+      }
+    },
+    "dossier_type_prefixes": {
+      "$ref": "#/definitions/custom_vocabulary"
+    },
+    "dossier_container_types": {
+      "$ref": "#/definitions/custom_vocabulary"
+    },
+    "preserved_as_paper_default": {
+      "type": "boolean"
+    }
+  },
   "required": [
     "public_trial_default_value",
     "maximum_repository_depth",
-    "maximum_dossier_depth"
+    "maximum_dossier_depth",
+    "retention_periods",
+    "custody_periods",
+    "dossier_type_prefixes",
+    "preserved_as_paper_default"
   ]
 }

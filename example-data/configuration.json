@@ -10,6 +10,12 @@
       "label_en": "Directorate",
       "label_de": "Direktorat",
       "label_fr": "Direction"
+    }, {
+      "identifier": "personal",
+      "label_en": "Directorate",
+      "label_de": "Personal",
+      "label_fr": "Direction"
     }
-  ]
+  ],
+  "preserved_as_paper_default": false
 }
