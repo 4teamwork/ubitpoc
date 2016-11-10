@@ -99,7 +99,19 @@
                   "public_trial": "public",
                   "retention_period": 15,
                   "archival_value": "prompt",
-                  "custody_period": 30
+                  "custody_period": 30,
+                  "_documents": [
+                    {
+                        "type": "opengever.document.document",
+                        "title": "Beschluss Gemeinderatssitzung 2016-10-19",
+                        "_filename": "Beschluss Gemeinderatssitzung 2016-10-19.pdf",
+                        "_filepath": "files/beschluss.pdf",
+                        "creators": "user.example",
+                        "description": "",
+                        "document_author": "Peter Muster",
+                        "document_date": "2016-10-19"
+                    }
+                  ]
                 }
               ]
             }

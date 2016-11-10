@@ -162,6 +162,12 @@
           "items": {
             "$ref": "#/definitions/dossier"
           }
+        },
+        "_documents": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/document"
+          }
         }
       },
       "required": [
@@ -173,6 +179,40 @@
         "retention_period",
         "archival_value",
         "custody_period"
+      ]
+    },
+    "document": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "_filename": {
+          "type": "string"
+        },
+        "_filepath": {
+          "type": "string"
+        },
+        "creators": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "document_author": {
+          "type": "string"
+        },
+        "document_date": {
+          "type": "string",
+          "format": "date"
+        }
+      },
+      "required": [
+        "type"
       ]
     },
     "permission": {
