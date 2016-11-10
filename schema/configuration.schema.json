@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "enums": {
+    "public_trial": {
+      "type": "string",
+      "enum": [
+        "unchecked",
+        "public",
+        "private",
+        "limited-public"
+      ]
+    }
+  },
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "public_trial_default_value": {
+        "$ref": "#/enums/public_trial"
+    }
+  },
+  "required": [
+    "public_trial_default_value"
+  ]
+}
