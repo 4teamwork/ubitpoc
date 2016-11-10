@@ -17,7 +17,7 @@
       "type": "object",
       "additionalProperties": false,
       "properties": {
-        "type": {
+        "_type": {
           "type": "string"
         },
         "title_de": {
@@ -52,14 +52,14 @@
         {"required": ["title_fr"]}
       ],
       "required": [
-        "type"
+        "_type"
       ]
     },
     "folder": {
       "type": "object",
       "additionalProperties": false,
       "properties": {
-        "type": {
+        "_type": {
           "type": "string"
         },
         "title_de": {
@@ -104,7 +104,7 @@
         {"required": ["title_fr"]}
       ],
       "required": [
-        "type",
+        "_type",
         "classification",
         "privacy_layer",
         "public_trial",
@@ -117,7 +117,7 @@
       "type": "object",
       "additionalProperties": false,
       "properties": {
-        "type": {
+        "_type": {
           "type": "string"
         },
         "title": {
@@ -171,7 +171,7 @@
         }
       },
       "required": [
-        "type",
+        "_type",
         "title",
         "classification",
         "privacy_layer",
@@ -185,7 +185,7 @@
       "type": "object",
       "additionalProperties": false,
       "properties": {
-        "type": {
+        "_type": {
           "type": "string"
         },
         "title": {
@@ -212,7 +212,7 @@
         }
       },
       "required": [
-        "type"
+        "_type"
       ]
     },
     "permission": {

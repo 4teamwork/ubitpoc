@@ -1,7 +1,7 @@
 {
   "roots": [
     {
-      "type": "opengever.repository.root",
+      "_type": "opengever.repository.root",
       "title_de": "Ordnungssystem",
       "version": "3",
       "valid_from": "2010-01-01",
@@ -15,7 +15,7 @@
       },
       "_folders": [
         {
-          "type": "opengever.repository.repositoryfolder",
+          "_type": "opengever.repository.repositoryfolder",
           "title_de": "Führung",
           "title_fr": "Management",
           "classification": "unprotected",
@@ -26,7 +26,7 @@
           "custody_period": 30,
           "_folders": [
             {
-              "type": "opengever.repository.repositoryfolder",
+              "_type": "opengever.repository.repositoryfolder",
               "title_de": "Strategische Führung",
               "classification": "unprotected",
               "privacy_layer": "privacy_layer_no",
@@ -36,7 +36,7 @@
               "custody_period": 30,
               "_dossiers": [
                 {
-                  "type": "opengever.dossier.businesscasedossier",
+                  "_type": "opengever.dossier.businesscasedossier",
                   "title": "Strategischer Plan Fall drei",
                   "description": "Lorem ipsum dolor sit",
                   "responsible": "user.example",
@@ -52,7 +52,7 @@
           ]
         },
         {
-          "type": "opengever.repository.repositoryfolder",
+          "_type": "opengever.repository.repositoryfolder",
           "title_de": "Strategische Führung",
           "title_fr": "Strätegische Führüng",
           "classification": "unprotected",
@@ -63,7 +63,7 @@
           "custody_period": 30,
           "_dossiers": [
             {
-              "type": "opengever.dossier.businesscasedossier",
+              "_type": "opengever.dossier.businesscasedossier",
               "title": "Strategischer Plan Fall drei",
               "description": "Lorem ipsum dolor sit",
               "responsible": "user.example",
@@ -78,7 +78,7 @@
               ]
             },
             {
-              "type": "opengever.dossier.businesscasedossier",
+              "_type": "opengever.dossier.businesscasedossier",
               "title": "Strategischer Plan Fall drei",
               "description": "Lorem ipsum dolor \\nsit",
               "responsible": "user.example",
@@ -90,7 +90,7 @@
               "custody_period": 30,
               "_dossiers": [
                 {
-                  "type": "opengever.dossier.businesscasedossier",
+                  "_type": "opengever.dossier.businesscasedossier",
                   "title": "Strategischer Plan Fall drei",
                   "description": "Lorem ipsum dolor sit",
                   "responsible": "user.example",
@@ -102,7 +102,7 @@
                   "custody_period": 30,
                   "_documents": [
                     {
-                        "type": "opengever.document.document",
+                        "_type": "opengever.document.document",
                         "title": "Beschluss Gemeinderatssitzung 2016-10-19",
                         "_filename": "Beschluss Gemeinderatssitzung 2016-10-19.pdf",
                         "_filepath": "files/beschluss.pdf",
