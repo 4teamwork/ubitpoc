@@ -216,7 +216,8 @@
         }
       },
       "required": [
-        "_type"
+        "_type",
+        "title"
       ]
     },
     "permission": {
