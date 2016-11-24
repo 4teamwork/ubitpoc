@@ -1,0 +1,32 @@
+[
+  {
+    "guid": "f91e682f6c7040578d53429038f1ae97",
+    "parent_guid": "e3718c24d4284b319639057187d86c0e",
+    "archival_value": "unchecked",
+    "archival_value_annotation": null,
+    "classification": "unprotected",
+    "comments": null,
+    "container_location": null,
+    "container_type": null,
+    "custody_period": 30,
+    "date_of_cassation": null,
+    "date_of_submission": null,
+    "description": "",
+    "end": null,
+    "filing_prefix": null,
+    "former_reference_number": null,
+    "keywords": [],
+    "number_of_containers": null,
+    "privacy_layer": "privacy_layer_no",
+    "public_trial": "unchecked",
+    "public_trial_statement": null,
+    "reference_number": null,
+    "relatedDossier": [],
+    "responsible": "lukas.graf",
+    "retention_period": 5,
+    "retention_period_annotation": null,
+    "review_state": "dossier-state-active",
+    "start": "2016-11-11",
+    "title": "Dossier"
+  }
+]

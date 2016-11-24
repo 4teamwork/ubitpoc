@@ -1,0 +1,45 @@
+[
+  {
+    "guid": "e3718c24d4284b319639057187d86c0e",
+    "parent_guid": "754daf80623f45659004a8c38c78dc3e",
+    "archival_value": "unchecked",
+    "archival_value_annotation": "",
+    "classification": "unprotected",
+    "custody_period": 30,
+    "date_of_cassation": "2016-10-1",
+    "date_of_submission": "2016-10-2",
+    "description": "",
+    "former_reference": "",
+    "location": "Aktenschrank 123",
+    "privacy_layer": "privacy_layer_no",
+    "public_trial": "unchecked",
+    "public_trial_statement": "",
+    "reference_number_prefix": "0",
+    "referenced_activity": "",
+    "retention_period": 5,
+    "retention_period_annotation": "",
+    "review_state": "repositoryfolder-state-active",
+    "title_de": "Führung",
+    "title_fr": "leadership",
+    "valid_from": "2005-01-01",
+    "valid_until": "2010-01-01",
+    "_permissions": {
+      "block_inheritance": true,
+      "read": [
+        "all_users"
+      ],
+      "add": [
+        "privileged_users"
+      ],
+      "edit": [
+        "privileged_users"
+      ],
+      "close": [
+        "privileged_users"
+      ],
+      "reactivate": [
+        "admin_users"
+      ]
+    }
+  }
+]

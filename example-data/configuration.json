@@ -2,15 +2,25 @@
   "public_trial_default_value": "unchecked",
   "maximum_repository_depth": 3,
   "maximum_dossier_depth": 5,
-  "retention_periods": [5, 10, 25, 50],
-  "custody_periods": [50, 150, 300],
+  "retention_periods": [
+    5,
+    10,
+    25,
+    50
+  ],
+  "custody_periods": [
+    50,
+    150,
+    300
+  ],
   "dossier_type_prefixes": [
     {
       "identifier": "department",
       "label_en": "Directorate",
       "label_de": "Direktorat",
       "label_fr": "Direction"
-    }, {
+    },
+    {
       "identifier": "personal",
       "label_en": "Directorate",
       "label_de": "Personal",
@@ -23,7 +33,8 @@
       "label_en": "Box",
       "label_de": "Schachtel",
       "label_fr": "Boîte"
-    }, {
+    },
+    {
       "identifier": "dossier",
       "label_en": "Dossier",
       "label_de": "Dossier",

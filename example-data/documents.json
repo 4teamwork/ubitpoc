@@ -1,0 +1,24 @@
+[
+  {
+    "guid": "d65317ece1cb4dc797de1fc1e32bb4eb",
+    "parent_guid": "f91e682f6c7040578d53429038f1ae97",
+    "classification": "unprotected",
+    "delivery_date": null,
+    "description": null,
+    "digitally_available": true,
+    "document_author": null,
+    "document_date": "2016-11-11",
+    "document_type": null,
+    "filepath": "files/antrag.pdf",
+    "foreign_reference": null,
+    "keywords": [],
+    "preserved_as_paper": true,
+    "privacy_layer": "privacy_layer_no",
+    "public_trial": "unchecked",
+    "public_trial_statement": "",
+    "receipt_date": null,
+    "relatedItems": [],
+    "review_state": "document-state-draft",
+    "title": "Ein Excel-Dokument"
+  }
+]
