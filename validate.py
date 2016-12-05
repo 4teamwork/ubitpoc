@@ -1,5 +1,6 @@
-from jsonschema import validate
 from jsonschema import FormatChecker
+from jsonschema import validate
+import codecs
 import json
 
 
@@ -13,8 +14,9 @@ OGGBUNDLE_TYPES = (
 
 def validate_data(document_name, schema_name):
     doc_fn = 'example-data/%s.json' % document_name
-    with open(doc_fn) as data_file:
-        data = json.load(data_file)
+    print "Validating %-35s" % doc_fn,
+    with codecs.open(doc_fn, 'r', 'utf-8-sig') as data_file:
+            data = json.load(data_file)
 
     schema_fn = 'schema/%s.json' % schema_name
     with open(schema_fn) as schema_file:
@@ -22,10 +24,9 @@ def validate_data(document_name, schema_name):
 
     try:
         validate(data, schema, format_checker=FormatChecker())
-        print "%s - validation successful" % doc_fn
+        print " - success"
     except:
-        print
-        print "%s - validation failed" % doc_fn
+        print " - failed"
         print
         raise
 
