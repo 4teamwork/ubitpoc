@@ -8,6 +8,7 @@
     "relatedDossier": [],
     "responsible": "lukas.graf",
     "review_state": "dossier-state-active",
+    "sequence_number": 1700,
     "start": "2010-11-11",
     "title": "Dossier Vreni Meier"
   },  {
@@ -28,6 +29,7 @@
     "retention_period": 5,
     "retention_period_annotation": null,
     "review_state": "dossier-state-active",
+    "sequence_number": 1701,
     "title": "Hanspeter Müller",
     "_permissions": {
       "read": [
