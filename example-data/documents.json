@@ -2,7 +2,6 @@
   {
     "guid": "d65317ece1cb4dc797de1fc1e32bb4eb",
     "parent_guid": "659645aec58d48a9b9663399ea2ec069",
-    "digitally_available": true,
     "document_author": "david.erni",
     "document_date": "2007-01-01",
     "filepath": "files/bewerbung_pesche.docx",
@@ -10,11 +9,11 @@
     "preserved_as_paper": true,
     "relatedItems": [],
     "review_state": "document-state-draft",
+    "sequence_number": 20750,
     "title": "Bewerbung Hanspeter Müller"
   },  {
     "guid": "1d94ce18d336490f84ace260a87712d0",
     "parent_guid": "659645aec58d48a9b9663399ea2ec069",
-    "digitally_available": true,
     "document_author": "david.erni",
     "document_date": "2011-01-01",
     "document_type": "directive",
@@ -26,6 +25,7 @@
     "receipt_date": "2011-01-01",
     "relatedItems": [],
     "review_state": "document-state-draft",
+    "sequence_number": 20751,
     "title": "Entlassung Hanspeter Müller"
   }
 ]

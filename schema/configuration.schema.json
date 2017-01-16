@@ -21,7 +21,7 @@
   "definitions": {
     "custom_vocabulary": {
       "type": "array",
-      "items" : {
+      "items": {
         "type": "object",
         "additionalProperties": false,
         "properties": {
@@ -34,7 +34,7 @@
           "label_de": {
             "type": "string"
           },
-          "label_fr":{
+          "label_fr": {
             "type": "string"
           }
         },
@@ -43,8 +43,16 @@
           "label_en"
         ],
         "anyOf": [
-          {"required": ["label_de"]},
-          {"required": ["label_fr"]}
+          {
+            "required": [
+              "label_de"
+            ]
+          },
+          {
+            "required": [
+              "label_fr"
+            ]
+          }
         ]
       }
     }
